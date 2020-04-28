@@ -10,7 +10,7 @@ class Speedometer
      */
     public static function convertKmToMiles(float $km) : string
     {
-        return round($km * self::KM, 2);
+        return " 10 Km est égale à " . round($km * self::KM, 2) . "Miles";
     }
 
     /**
@@ -19,7 +19,7 @@ class Speedometer
      */
     public static function convertMilesToKm(float $miles) : string
     {
-        return round($miles * self::MILES, 2);
+        return " 88 Miles est égale à " . round($miles * self::MILES, 2) . "Km";
     }
 
 }
